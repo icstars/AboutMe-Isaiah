@@ -1,5 +1,19 @@
+*{
+    border: 0px solid black;
+}
+
 h1 {
     font-size: large; 
-    color: aqua; 
+    color: blue; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#thirdH1 {
+    color: blue;
+}
+
+body {
+    
+    background-color: skyblue;
+    
 }
