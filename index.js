@@ -45,5 +45,6 @@ grabSubmitBtn.addEventListener("click", (e) => {
     `${grabFirstnameInput.value} ${grabBirthPlaceInput.value} your favorite color is ${grabColorInput.value}. Thank you for liking me.`
   );
 
+  const grabFirstnameInput = document.getElementById("firstNameLabel");
   grabFirstnameInput.style.color = "purple";
 });
