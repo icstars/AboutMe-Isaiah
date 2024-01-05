@@ -42,7 +42,7 @@ grabSubmitBtn.addEventListener("click", (e) => {
   // console.log(`${} ${} your birthday is ${}. Thank you for liking me.`)
 
   console.log(
-    `${grabFirstnameInput.value} ${grabBirthPlaceInput.value} your favorite color is ${grabColorInput.value}. Thank you for liking me.`
+    `${grabFirstnameInput.value} ${grabBirthPlaceInput.value} your favorite color is ${grabColorInput.value}. Thank you for giving me your location.`
   );
 
   grabFirstnameInput.style.color = "purple";
