@@ -18,7 +18,7 @@ console.log(grabFirstnameInput);
 const grabBirthPlaceInput = document.getElementById("birthPlaceInput");
 console.log(grabBirthPlaceInput);
 
-const grabColorInput = document.getElementById("color");
+const grabColorInput = document.getElementById("colorInput");
 console.log(grabColorInput);
 
 const grabSubmitBtn = document.getElementById("submitBtn");
@@ -42,9 +42,9 @@ grabSubmitBtn.addEventListener("click", (e) => {
   // console.log(`${} ${} your birthday is ${}. Thank you for liking me.`)
 
   console.log(
-    `${grabFirstnameInput.value} ${grabLastnameInput.value} your favorite color is ${grabColorInput.value}. Thank you for liking me.`
+    `${grabFirstnameInput.value} ${grabBirthPlaceInput.value} your favorite color is ${grabColorInput.value}. Thank you for liking me.`
   );
 
   const grabFirstnameInput = document.getElementById("firstNameLabel");
-  grabFirstnameInput.style.color = "red";
+  grabFirstnameInput.style.color = "purple";
 });
